@@ -1,0 +1,155 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vijay Gents Parlour</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background: #fdfdfd;
+            color: #333;
+        }
+        header {
+            background-image: url('https://wallpaperaccess.com/full/1936575.png');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
+        }
+        header p {
+            font-size: 1.2em;
+        }
+        section {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        .section-title {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2em;
+            color: #111;
+        }
+        .about, .contact {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            padding: 20px;
+            margin-bottom: 30px;
+        }
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .service-card {
+            background: #fafafa;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+            text-align: center;
+            transition: transform 0.2s;
+        }
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+        }
+        footer {
+            background: #222;
+            color: #ccc;
+            text-align: center;
+            padding: 20px;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 12px 24px;
+            background: linear-gradient(135deg, #000, #444);
+            color: #fff;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        .btn:hover {
+            background: linear-gradient(135deg, #444, #000);
+            transform: scale(1.05);
+        }
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Vijay Gents Parlour</h1>
+    <p>Khud ko dijiye ek naya look – Haircut, Beard Trim & More</p>
+</header>
+
+<section class="about fade-in">
+    <h2 class="section-title">About Us</h2>
+    <p>Welcome to Vijay Gents Parlour – where style meets comfort. We offer the latest hairstyles,
+    clean beard trims, relaxing head massages, and complete grooming services in Khadki, Pune.
+    Experience professional care in a hygienic environment with skilled barbers.</p>
+</section>
+
+<section class="services fade-in">
+    <div class="service-card">
+        <h3>Haircut</h3>
+        <p>Trendy and classic cuts tailored to your style.</p>
+    </div>
+    <div class="service-card">
+        <h3>Beard Trim</h3>
+        <p>Sharp and clean beard styles to enhance your look.</p>
+    </div>
+    <div class="service-card">
+        <h3>Facial</h3>
+        <p>Cleanse and rejuvenate your skin with our facial services.</p>
+    </div>
+    <div class="service-card">
+        <h3>Grooming</h3>
+        <p>Complete grooming packages for every occasion.</p>
+    </div>
+    <div class="service-card">
+        <h3>Head Massage</h3>
+        <p>Relax your mind with a soothing head massage.</p>
+    </div>
+</section>
+
+<section class="contact fade-in">
+    <h2 class="section-title">Contact Us</h2>
+    <p><strong>Address:</strong> G/25 Cantonment Gen. Hospital Road, Opp. Manegaonkar Computer Institute, Khadki, Pune, Maharashtra 411003</p>
+    <p><strong>Call/WhatsApp:</strong> <a href="tel:+919764331444">+91 97643 31444</a></p>
+    <p><strong>Open Daily:</strong> 9 AM – 11 PM</p>
+    <a class="btn" href="tel:+919764331444">Call Now</a>
+    <br><br>
+    <iframe 
+        src="https://www.google.com/maps?q=G/25+Cantonment+Gen.+Hospital+Road,+Opp.+Manegaonkar+Computer+Institute,+Khadki,+Pune,+Maharashtra+411003&output=embed"
+        width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+</section>
+
+<a href="https://wa.me/919764331444" style="position: fixed; bottom: 20px; right: 20px; background-color: #25D366; color: white; padding: 12px 16px; border-radius: 50px; text-decoration: none; font-weight: bold; box-shadow: 0 2px 10px rgba(0,0,0,0.3); z-index: 1000;">
+    📱 Chat on WhatsApp
+</a>
+
+<footer>
+    <p>&copy; 2025 Vijay Gents Parlour. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
